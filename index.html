@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Progressão Aritimetica</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div><img src="" name="p" alt=""></div>
-    <div><input type="file" name="" id="s"></div>
-    <script>
-        var sf = document.getElementById("s").value 
-        var pf = document.getElements("#p")
-
-        pf=sf.value
-    </script>
+    <header>Calculadora de P.A</header>
+    <section>
+        <p id="inicio">Valor Inicial<br> 
+            <input type="text" name="" id="n1"></p>
+        <p id="final">Valor Final<br>
+            <input type="text" name="" id="nA"></p>
+        <p id="razão">Razão<br>
+            <input type="text" name="" id="r"></p>
+        <div id="b"><input type="button" value="calcular" onclick="c()" ></div>
+        <div id="res"></div>
+    </section>
+    <footer>RafaelTheCreator&copy;</footer>
+    <script src="script.js"></script>
 </body>
 </html>
